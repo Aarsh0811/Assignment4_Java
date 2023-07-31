@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href=""?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="644.0" prefWidth="600.0"
+            style="-fx-background-color: black;"
+            xmlns="http://javafx.com/javafx/20.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.georgian.studentinfosystem.ad.CoursesController">
+    <children>
+
+        <Label layoutX="226.0" layoutY="26.0" prefHeight="59.0"
+               prefWidth="148.0" text="Courses" textAlignment="CENTER"
+               textFill="WHITE">
+            <font>
+                <Font size="41.0" />
+            </font>
+        </Label>
+
+
+        <Label layoutX="67.0" layoutY="102.0" prefHeight="30.0"
+               prefWidth="114.0" text="StudentID:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="146.0" prefHeight="30.0"
+               prefWidth="125.0" text="ProfessorID:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="187.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseID:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="229.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseName:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="272.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseInstructor:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="316.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseDescription:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="359.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseDelivery:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="402.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseCapacity:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="444.0" prefHeight="30.0"
+               prefWidth="136.0" text="CourseCredits:" textFill="#b9b9b9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="StudentID" layoutX="211.0" layoutY="102.0"
+                   prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="ProfessorID" layoutX="211.0"
+                   layoutY="145.0" prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseID" layoutX="211.0" layoutY="187.0"
+                   prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseName" layoutX="211.0"
+                   layoutY="229.0" prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseInstructor" layoutX="211.0"
+                   layoutY="272.0" prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseDescription" layoutX="211.0"
+                   layoutY="316.0" prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseDelivery" layoutX="211.0"
+                   layoutY="359.0" prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseCapacity" layoutX="211.0"
+                   layoutY="402.0" prefHeight="30.0" prefWidth="186.0" />
+        <TextField fx:id="CourseCredits" layoutX="211.0"
+                   layoutY="444.0" prefHeight="30.0" prefWidth="186.0" />
+
+        <Button layoutX="247.0" layoutY="497.0" mnemonicParsing="false"
+                onAction="#onDisplay" prefHeight="42.0" prefWidth="114.0"
+                text="Display">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="259.0" layoutY="566.0" mnemonicParsing="false"
+                onAction="#OnClose" prefHeight="42.0" prefWidth="89.0" text="Close">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
